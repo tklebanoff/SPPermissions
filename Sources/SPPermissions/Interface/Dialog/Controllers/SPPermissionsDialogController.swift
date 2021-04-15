@@ -69,7 +69,7 @@ public class SPPermissionsDialogController: UIViewController, SPPermissionsContr
     
     private var permissions: [SPPermission]
     
-    init(_ permissions: [SPPermission]) {
+    public init(_ permissions: [SPPermission]) {
         self.permissions = permissions
         super.init(nibName: nil, bundle: nil)
     }
